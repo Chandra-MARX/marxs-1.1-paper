@@ -1,0 +1,43 @@
+<html> 
+  <head> 
+    <title>Polarization example</title>
+    <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
+    <link rel='stylesheet' type='text/css'
+      href='http://www.x3dom.org/download/x3dom.css'></link> 
+
+    <h1>Interactive HTML for Polarization example</h1> 
+	    
+    <font size="2">
+    ------<br>
+    This interactive animation should be included in the online version of the article
+    with the same figure caption as specified in the tex file.
+  Please see <a href="https://www.x3dom.org/documentation/interaction/">here
+  </a> for a full list of mouse and keyboard navigation controls.
+</p> 
+    <br>
+    
+    
+    ------<br><br>
+    </font>
+
+    <!-- Start of the X3DOM part -->
+
+    <style>
+       x3d
+       {
+          border:2px solid darkorange;
+       }   
+    </style>
+  </head> 
+
+  <body> 
+    <x3d width='1000px' height='700px', margin-left='300px'> 
+      <scene> 
+        <inline url="subaper.x3d" nameSpaceName="subaper" mapDEFToID="true" onclick=''/>
+      </scene> 
+    </x3d> 
+
+    <!-- End of the X3DOM part -->
+
+  </body>
+</html>
