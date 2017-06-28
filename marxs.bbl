@@ -1,0 +1,172 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+
+\bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
+  {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
+  {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
+  {Barbary}, {Muna}, {Ferguson}, {Grollier}, {Parikh}, {Nair}, {Unther},
+  {Deil}, {Woillez}, {Conseil}, {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver},
+  {Zabalza}, {Edwards}, {Azalee Bostroem}, {Burke}, {Casey}, {Crawford},
+  {Dencheva}, {Ely}, {Jenness}, {Labrie}, {Lim}, {Pierfederici}, {Pontzen},
+  {Ptak}, {Refsdal}, {Servillat}, \& {Streicher}}]{2013A&A...558A..33A}
+{Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
+  \aap, 558, A33
+
+\bibitem[{Beuermann {et~al.}(1978)Beuermann, Br\"{a}uninger, \&
+  Tr\"{u}mper}]{Beuermann:78}
+Beuermann, K.~P., Br\"{a}uninger, H., \& Tr\"{u}mper, J. 1978, Appl. Opt., 17,
+  2304.
+\newblock \url{http://ao.osa.org/abstract.cfm?URI=ao-17-15-2304}
+
+\bibitem[{{Broos} {et~al.}(2012){Broos}, {Townsley}, {Getman}, \&
+  {Bauer}}]{2012ascl.soft03001B}
+{Broos}, P., {Townsley}, L., {Getman}, K., \& {Bauer}, F. 2012, {AE: ACIS
+  Extract}, Astrophysics Source Code Library, , , ascl:1203.001
+
+\bibitem[{{Broos} {et~al.}(2010){Broos}, {Townsley}, {Feigelson}, {Getman},
+  {Bauer}, \& {Garmire}}]{2010ApJ...714.1582B}
+{Broos}, P.~S., {Townsley}, L.~K., {Feigelson}, E.~D., {et~al.} 2010, \apj,
+  714, 1582
+
+\bibitem[{{Canizares} {et~al.}(2005){Canizares}, {Davis}, {Dewey}, {Flanagan},
+  {Galton}, {Huenemoerder}, {Ishibashi}, {Markert}, {Marshall}, {McGuirk},
+  {Schattenburg}, {Schulz}, {Smith}, \& {Wise}}]{2005PASP..117.1144C}
+{Canizares}, C.~R., {Davis}, J.~E., {Dewey}, D., {et~al.} 2005, \pasp, 117,
+  1144
+
+\bibitem[{Cash(1987)}]{Cash:87}
+Cash, W. 1987, Appl. Opt., 26, 2915.
+\newblock \url{http://ao.osa.org/abstract.cfm?URI=ao-26-14-2915}
+
+\bibitem[{Chipman(1992)}]{doi:10.1117/12.138816}
+Chipman, R.~A. 1992, in , 62--75.
+\newblock \url{http://dx.doi.org/10.1117/12.138816}
+
+\bibitem[{Collon {et~al.}(2015)Collon, Vacanti, Günther, Yanson, Barrière,
+  Landgraf, Vervest, Chatbi, Beijersbergen, Bavdaz, Wille, Haneveld, Koelewijn,
+  Leenstra, Wijnperle, van Baren, Müller, Krumrey, Burwitz, Pareschi, Conconi,
+  \& Christensen}]{doi:10.1117/12.2188988}
+Collon, M.~J., Vacanti, G., Günther, R., {et~al.} 2015, in ,
+  96030K--96030K--11.
+\newblock \url{http://dx.doi.org/10.1117/12.2188988}
+
+\bibitem[{{Davis} {et~al.}(2012){Davis}, {Bautz}, {Dewey}, {Heilmann}, {Houck},
+  {Huenemoerder}, {Marshall}, {Nowak}, {Schattenburg}, {Schulz}, \&
+  {Smith}}]{2012SPIE.8443E..1AD}
+{Davis}, J.~E., {Bautz}, M.~W., {Dewey}, D., {et~al.} 2012, in \procspie, Vol.
+  8443, Space Telescopes and Instrumentation 2012: Ultraviolet to Gamma Ray,
+  84431A
+
+\bibitem[{Flanagan {et~al.}(2000)Flanagan, Markert, Davis, Schattenburg, Blake,
+  Scholze, Bulicke, Fliegauf, Kraft, Ulm, \& Gullikson}]{doi:10.1117/12.409156}
+Flanagan, K.~A., Markert, T.~H., Davis, J.~E., {et~al.} 2000, in , 559--572.
+\newblock \url{http://dx.doi.org/10.1117/12.409156}
+
+\bibitem[{Gaskin {et~al.}(2015)Gaskin, Weisskopf, Vikhlinin, Tananbaum,
+  Bandler, Bautz, Burrows, Falcone, Harrison, Heilmann, Heinz, Hopkins,
+  Kilbourne, Kouveliotou, Kraft, Kravtsov, McEntaffer, Natarajan, O’Dell,
+  Petre, Prieskorn, Ptak, Ramsey, Reid, Schnell, Schwartz, \&
+  Townsley}]{doi:10.1117/12.2190837}
+Gaskin, J.~A., Weisskopf, M.~C., Vikhlinin, A., {et~al.} 2015, in ,
+  96010J--96010J--14.
+\newblock \url{http://dx.doi.org/10.1117/12.2190837}
+
+\bibitem[{{G{\"u}nther} {et~al.}(2016){G{\"u}nther}, {Bautz}, {Heilmann},
+  {Huenemoerder}, {Marshall}, {Nowak}, \& {Schulz}}]{2016SPIE.9905E..56G}
+{G{\"u}nther}, H.~M., {Bautz}, M.~W., {Heilmann}, R.~K., {et~al.} 2016, in
+  \procspie, Vol. 9905, Society of Photo-Optical Instrumentation Engineers
+  (SPIE) Conference Series, 990556
+
+\bibitem[{G\"unther {et~al.}(2017)G\"unther, Frost, Sipocz, Theriault-Shay, \&
+  Robitaille}]{marxs1.0}
+G\"unther, H.~M., Frost, J., Sipocz, B., Theriault-Shay, A., \& Robitaille, T.
+  2017, Chandra-MARX/marxs: V1.0, , , doi:10.5281/zenodo.546376.
+\newblock \url{https://doi.org/10.5281/zenodo.546376}
+
+\bibitem[{Heilmann {et~al.}(2015)Heilmann, Bruccoleri, \&
+  Schattenburg}]{doi:10.1117/12.2188525}
+Heilmann, R.~K., Bruccoleri, A.~R., \& Schattenburg, M.~L. 2015, in ,
+  960314--960314--12.
+\newblock \url{http://dx.doi.org/10.1117/12.2188525}
+
+\bibitem[{Jones {et~al.}(2001--)Jones, Oliphant, Peterson, {et~al.}}]{numpy}
+Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
+  scientific tools for {Python}, , , [Online; accessed 2016-06-04].
+\newblock \url{http://www.scipy.org/}
+
+\bibitem[{{Kuhn} {et~al.}(2013){Kuhn}, {Getman}, {Broos}, {Townsley}, \&
+  {Feigelson}}]{2013ApJS..209...27K}
+{Kuhn}, M.~A., {Getman}, K.~V., {Broos}, P.~S., {Townsley}, L.~K., \&
+  {Feigelson}, E.~D. 2013, \apjs, 209, 27
+
+\bibitem[{{Marshall} {et~al.}(2013){Marshall}, {Schulz}, {Remlinger}, {Gentry},
+  {Windt}, \& {Gullikson}}]{2013SPIE.8861E..1DM}
+{Marshall}, H.~L., {Schulz}, N.~S., {Remlinger}, B., {et~al.} 2013, in
+  \procspie, Vol. 8861, Optics for EUV, X-Ray, and Gamma-Ray Astronomy VI,
+  88611D
+
+\bibitem[{{Miller} {et~al.}(2014){Miller}, {Raymond}, {Kallman}, {Maitra},
+  {Fabian}, {Proga}, {Reynolds}, {Reynolds}, {Degenaar}, {King}, {Cackett},
+  {Kennea}, \& {Beardmore}}]{2014ApJ...788...53M}
+{Miller}, J.~M., {Raymond}, J., {Kallman}, T.~R., {et~al.} 2014, \apj, 788, 53
+
+\bibitem[{O'Dell {et~al.}(1993)O'Dell, Elsner, Kolodziejczak, Weisskopf,
+  Hughes, \& Van~Speybroeck}]{doi:10.1117/12.140551}
+O'Dell, S.~L., Elsner, R.~F., Kolodziejczak, J.~J., {et~al.} 1993, in ,
+  171--182.
+\newblock \url{http://dx.doi.org/10.1117/12.140551}
+
+\bibitem[{Ramachandran \& Varoquaux(2011)}]{mayavi}
+Ramachandran, P., \& Varoquaux, G. 2011, Computing in Science \& Engineering,
+  13, 40
+
+\bibitem[{{Russell} {et~al.}(2012){Russell}, {Fabian}, {Taylor}, {Sanders},
+  {Blundell}, {Crawford}, {Johnstone}, \& {Belsole}}]{2012MNRAS.422..590R}
+{Russell}, H.~R., {Fabian}, A.~C., {Taylor}, G.~B., {et~al.} 2012, \mnras, 422,
+  590
+
+\bibitem[{Smith {et~al.}(2014)Smith, Ackermann, Allured, Bautz, Bregman,
+  Bookbinder, Burrows, Brenneman, Brickhouse, Cheimets, Carrier, Freeman,
+  Kaastra, McEntaffer, Miller, Ptak, Petre, \&
+  Vacanti}]{doi:10.1117/12.2062671}
+Smith, R.~K., Ackermann, M., Allured, R., {et~al.} 2014, in ,
+  91444Y--91444Y--12.
+\newblock \url{http://dx.doi.org/10.1117/12.2062671}
+
+\bibitem[{{Vogt} {et~al.}(2016){Vogt}, {Owen}, {Verdes-Montenegro}, \&
+  {Borthakur}}]{2016ApJ...818..115V}
+{Vogt}, F.~P.~A., {Owen}, C.~I., {Verdes-Montenegro}, L., \& {Borthakur}, S.
+  2016, \apj, 818, 115
+
+\bibitem[{Willingale {et~al.}(2014)Willingale, Pareschi, Christensen, den
+  Herder, Ferreira, Jakobsen, Ackermann, Collon, \&
+  Bavdaz}]{doi:10.1117/12.2055183}
+Willingale, R., Pareschi, G., Christensen, F., {et~al.} 2014, in ,
+  91442E--91442E--9.
+\newblock \url{http://dx.doi.org/10.1117/12.2055183}
+
+\bibitem[{{Wise} {et~al.}(2013){Wise}, {Davis}, {Huenemoerder}, {Houck}, \&
+  {Dewey}}]{2013ascl.soft02001W}
+{Wise}, M.~W., {Davis}, J.~E., {Huenemoerder}, D.~P., {Houck}, J.~C., \&
+  {Dewey}, D. 2013, {MARX: Model of AXAF Response to X-rays}, Astrophysics
+  Source Code Library, , , ascl:1302.001
+
+\bibitem[{{Wu} {et~al.}(2017){Wu}, {Ghisellini}, {Hodges-Kluck}, {Gallo},
+  {Ciardi}, {Haardt}, {Sbarrato}, \& {Tavecchio}}]{2017MNRAS.468..109W}
+{Wu}, J., {Ghisellini}, G., {Hodges-Kluck}, E., {et~al.} 2017, \mnras, 468, 109
+
+\bibitem[{Yun(2011)}]{Yunthesis}
+Yun, G. 2011, Polarization Ray Tracing,  The University of Arizona.
+\newblock \url{http://hdl.handle.net/10150/202979}
+
+\bibitem[{Yun {et~al.}(2011)Yun, Crabtree, \& Chipman}]{Yun:11}
+Yun, G., Crabtree, K., \& Chipman, R.~A. 2011, Appl. Opt., 50, 2855.
+\newblock \url{http://ao.osa.org/abstract.cfm?URI=ao-50-18-2855}
+
+\bibitem[{{Zu Hone} {et~al.}(2009){Zu Hone}, {Ricker}, {Lamb}, \& {Karen
+  Yang}}]{2009ApJ...699.1004Z}
+{Zu Hone}, J.~A., {Ricker}, P.~M., {Lamb}, D.~Q., \& {Karen Yang}, H.-Y. 2009,
+  \apj, 699, 1004
+
+\end{thebibliography}
