@@ -13,6 +13,7 @@ mirr = optics.FlatStack(position=[11000, 0, 0], zoom=[20, 1000, 1000],
 mirr.display['opacity'] = 0.5
 
 class ColoredFlatGrating(optics.FlatGrating):
+    '''Flat grating that also assigns a color to all passing photons.'''
     def specific_process_photons(self, *args, **kwargs):
         out = super(ColoredFlatGrating, self).specific_process_photons(*args, **kwargs)
         out['colorid'] = self.colorid if hasattr(self, 'colorid') else np.nan
@@ -38,7 +39,6 @@ for e in gas.elements:
     e.colorid = int(e.ang / np.pi * 3)
     e.display['color'] = gratingcolors[e.colorid]
 
-import numpy as np
 from mayavi import mlab
 from astropy.coordinates import SkyCoord
 from marxs import source, simulator

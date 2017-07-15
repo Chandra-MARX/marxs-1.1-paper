@@ -217,7 +217,7 @@ In section~\ref{sect:design} we explain the design principles and capabilities
 of the MARXS code. In section~\ref{sect:example} we show examples of using
 it.
 We end with a short summary in section~\ref{sect:summary}. This paper describes
-version 1.1 of MARXS \citep{marxs1.0} \textbf{update ref to 1.1 after release!}.
+version 1.1 of MARXS \citep{marxs1.1}.
 Development continues on github\footnote{\url{https://github.com/chandra-marx/marxs}}.
 
 \section{Design and capabilities}
@@ -239,8 +239,8 @@ gratings and detectors on a torus for a Rowland spectrometer \citep[see
 (\texttt{marxs.visualization}), as well as utility modules for mathematics.
 
 \subsection{Order of elements in the simulation}
-MARXS visits elements sequentially. After a ray passed (and potentially
-interacted with) element $i$, MARXS tests if the ray interacts with element
+MARXS visits elements sequentially. After a ray passes (and potentially
+interacts with) element $i$, MARXS tests if the ray interacts with element
 $i+1$. The ray never returns to element $i$. This approach reduces the number
 of intersection tests that need to be calculated per ray-trace, but it requires
 an a-priory knowledge about the order of elements that a ray might intersect
@@ -264,13 +264,10 @@ automatic conversion to these base units internally is planned for a future
 version.
 
 \subsection{Rays and photons}
-The fundamental unit of ray-tracing is a single ray, which can be interpreted
-as a wave package of many photons or as a single photon. For most practical
-purposes either interpretation works. Most X-ray detectors are photon counting,
-thus it is convenient to identify each ray with a single photon. On the other
-hand, we also assign a polarization to each ray, which technically is not a
-property of a photon, but a property of a wave.
-
+The fundamental unit of ray-tracing is a single ``ray'', which can be
+interpreted as a wave package of many photons or as a single
+photon. Most X-ray detectors are photon counting, thus it is
+convenient to identify each ray with a single photon in MARXS.
 MARXS generates a list of photons, which is stored in an
 \texttt{astropy.table.Table} object \citep{2013A&A...558A..33A}. This object
 holds raw numpy arrays and associated metadata. It also provides the capability
@@ -284,7 +281,7 @@ next. It does not currently provide classes to calculate the result of an
 interaction with an element from the properties of the material. Instead, it
 requires input look-up tables of e.g. reflection probabilities (dependent on
 energy and incident angle for example) or grating efficiencies. Alternatively,
-the user can supply code to calculate these quantities from fist principles.
+the user can supply code to calculate these quantities from first principles.
 
 As an example, the MARXS class \texttt{marxs.optics.FlatGrating} does not
 calculate the diffraction probability in every order from the optical constants
@@ -313,9 +310,9 @@ the light sources currently included in MARXS only support linear polarization.
 
 
 \subsection{Sources and apertures}
-The module \texttt{marxs.sources} provides a several classes for point sources
+The module \texttt{marxs.sources} provides several classes for point sources
 both in the laboratory and on the sky. There are also a few classes for
-spatially extended celectial sources such as circle, disk, or Gaussian
+spatially extended celestial sources such as circle, disk, or Gaussian
 luminsosity distribtion. All sources allow great freedom to specify spectral
 properties, polarizations, and timing behaviour through keywords. For
 astrophysical sources, the telescope pointing most be specified to transform
@@ -332,12 +329,12 @@ no further pointing or aperture is required.
 \subsection{Parts and pieces}
 MARXS provides a range of generic optical elements such as mirrors, gratings,
 filters, and detectors in \texttt{marxs.optics}. Each object is initialized
-with a 4-d matrix that sets positions, orientation in space, and the size of
+with a 4-d matrix that sets positions and orientation compared relative to the global coordinate system, and the size of
 each element. Additional properties such as pixel size or grating constant are
-passed in as keywords. Some of these elements are demonstracted in the examples
+passed in as keywords. Some of these elements are demonstrated in the examples
 below.
 
-The optical elements are laid out in a hirachy based on inheritance. This makes
+The optical elements are laid out in a hierachy based on inheritance. This makes
 is easy to add new elements, since they can inherit most of their functionailty
 from existing base classes, so that only little new code has to be written.
 
@@ -346,7 +343,7 @@ from existing base classes, so that only little new code has to be written.
 Many elements in an X-ray optic absorb photons. One way to treat this in a
 Monte-Carlo ray-trace is to draw a random number and decide for each ray if it
 should be deleted from the list of rays or propagated further. However, in the
-setup of MARXS is it much easier to operate on a photon list of fixed
+setup of MARXS it is much easier to operate on a photon list of fixed
 size. Thus, each photon in MARXS has a \texttt{probability} associated with
 it. At the source, the value $1.0$ is assigned and in any absorbing element
 this number is decreased to track the probability that the photon is still
@@ -362,13 +359,13 @@ rays. Even if we simulated 1000 rays, due to Poisson statistics, there would
 still be a large uncertainty on the true value such as $p=0.01\pm0.003$.
 
 \subsection{Visualization}
-MARXS photons lists are just astropy tables, and as such they have build-in
+MARXS photons lists are just astropy tables, and as such they have built-in
 capability to be written to a variety of file formats, including fits
 tables. Thus, any standard astronomy software can be used to analyze simulation
-results. For example, binning the x- and y coordinates of the rays on the
+results. For example, binning the x and y coordinates of the rays on the
 detector yields a detector image. Furthermore, MARXS also provides several ways
-pass the coordinates of the instrument components and of the rays to 3-d
-visualization tools, currently supported are Mayavi \citep{mayavi}, a Python
+to pass the coordinates of the instrument components and of the rays to 3-d
+visualization tools; currently supported are Mayavi \citep{mayavi}, a Python
 library, and three.js, a javascript library. Both of them make use of the
 OpenGL standard, so that the 3-dimensional rendering is done in the graphics
 card of the computer, making fluid animations of instrument designs with
@@ -384,7 +381,7 @@ MARXS employs continuous integration with a few hundred unit tests to reduce
 the risk of unintended regressions from any code change. Test cases include
 verification that all classes adhere to the common interface (e.g.\ all optical
 elements can be called with a photon list as argument), physical boundary
-conditions are preserved (e.g.\ the polariazation vectors are always
+conditions are preserved (e.g.\ the polarization vectors are always
 perpendicular to the directions of the ray), and, where available, analytical
 test cases are correctly simulated (e.g.\ the grating equation for a
 diffraction grating).
@@ -407,7 +404,7 @@ throughput of the telescope; on the other hand, large, flat elements deviate
 more from the analytic curved surface where gratings and detectors should be
 placed in a Rowland geometry.
 
-In this simulation, the focal length is 11~m, the grating constant is 200~mn,
+In this simulation, the focal length is 11~m, the grating constant is 200~nm,
 the gratings are 160 mm on each side, and detectors are rectangular with
 $100\times40$~mm$^2$. Figure~\ref{fig:subaper3d} shows a ray-trace for a source
 on axis with a monochromatic flux of 1~keV. The entrance aperture is a narrow
@@ -550,7 +547,7 @@ proposed sounding rocket experiment for a soft X-ray polarimeter.
 MARXS is a new ray-tracing code in python that is designed to simulate the
 performance of X-ray instrumentation on the ground and in space. It includes
 modules for common elements such as mirrors, dispersion gratings, and
-detectors. MARXS tracks the probability of a photon to to travel along its
+detectors. MARXS tracks the probability of a photon to travel along its
 pathway without absorption by the optical elements it passes. Polarization is
 taken into account where appropriate. We show the use of MARXS to study
 sub-aperturing, to replicate the laboratory setup of an X-ray beamline, and to
