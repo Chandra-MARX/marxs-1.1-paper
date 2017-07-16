@@ -39,17 +39,18 @@ Beuermann, K.~P., Br\"{a}uninger, H., \& Tr\"{u}mper, J. 1978, Appl. Opt., 17,
 Cash, W. 1987, Appl. Opt., 26, 2915.
 \newblock \url{http://ao.osa.org/abstract.cfm?URI=ao-26-14-2915}
 
-\bibitem[{Chipman(1992)}]{doi:10.1117/12.138816}
-Chipman, R.~A. 1992, in , 62--75.
-\newblock \url{http://dx.doi.org/10.1117/12.138816}
+\bibitem[{{Chipman}(1992)}]{1992SPIE.1746...62C}
+{Chipman}, R.~A. 1992, in \procspie, Vol. 1746, Polarization Analysis and
+  Measurement, ed. D.~H. {Goldstein} \& R.~A. {Chipman}, 62--75
 
-\bibitem[{Collon {et~al.}(2015)Collon, Vacanti, Günther, Yanson, Barrière,
-  Landgraf, Vervest, Chatbi, Beijersbergen, Bavdaz, Wille, Haneveld, Koelewijn,
-  Leenstra, Wijnperle, van Baren, Müller, Krumrey, Burwitz, Pareschi, Conconi,
-  \& Christensen}]{doi:10.1117/12.2188988}
-Collon, M.~J., Vacanti, G., Günther, R., {et~al.} 2015, in ,
-  96030K--96030K--11.
-\newblock \url{http://dx.doi.org/10.1117/12.2188988}
+\bibitem[{{Collon} {et~al.}(2015){Collon}, {Vacanti}, {G{\"u}nther}, {Yanson},
+  {Barri{\`e}re}, {Landgraf}, {Vervest}, {Chatbi}, {Beijersbergen}, {Bavdaz},
+  {Wille}, {Haneveld}, {Koelewijn}, {Leenstra}, {Wijnperle}, {van Baren},
+  {M{\"u}ller}, {Krumrey}, {Burwitz}, {Pareschi}, {Conconi}, \&
+  {Christensen}}]{2015SPIE.9603E..0KC}
+{Collon}, M.~J., {Vacanti}, G., {G{\"u}nther}, R., {et~al.} 2015, in \procspie,
+  Vol. 9603, Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series, 96030K
 
 \bibitem[{{Davis} {et~al.}(2012){Davis}, {Bautz}, {Dewey}, {Heilmann}, {Houck},
   {Huenemoerder}, {Marshall}, {Nowak}, {Schattenburg}, {Schulz}, \&
@@ -58,19 +59,22 @@ Collon, M.~J., Vacanti, G., Günther, R., {et~al.} 2015, in ,
   8443, Space Telescopes and Instrumentation 2012: Ultraviolet to Gamma Ray,
   84431A
 
-\bibitem[{Flanagan {et~al.}(2000)Flanagan, Markert, Davis, Schattenburg, Blake,
-  Scholze, Bulicke, Fliegauf, Kraft, Ulm, \& Gullikson}]{doi:10.1117/12.409156}
-Flanagan, K.~A., Markert, T.~H., Davis, J.~E., {et~al.} 2000, in , 559--572.
-\newblock \url{http://dx.doi.org/10.1117/12.409156}
+\bibitem[{{Flanagan} {et~al.}(2000){Flanagan}, {Markert}, {Davis},
+  {Schattenburg}, {Blake}, {Scholze}, {Bulicke}, {Fliegauf}, {Kraft}, {Ulm}, \&
+  {Gullikson}}]{2000SPIE.4140..559F}
+{Flanagan}, K.~A., {Markert}, T.~H., {Davis}, J.~E., {et~al.} 2000, in
+  \procspie, Vol. 4140, X-Ray and Gamma-Ray Instrumentation for Astronomy XI,
+  ed. K.~A. {Flanagan} \& O.~H. {Siegmund}, 559--572
 
-\bibitem[{Gaskin {et~al.}(2015)Gaskin, Weisskopf, Vikhlinin, Tananbaum,
-  Bandler, Bautz, Burrows, Falcone, Harrison, Heilmann, Heinz, Hopkins,
-  Kilbourne, Kouveliotou, Kraft, Kravtsov, McEntaffer, Natarajan, O’Dell,
-  Petre, Prieskorn, Ptak, Ramsey, Reid, Schnell, Schwartz, \&
-  Townsley}]{doi:10.1117/12.2190837}
-Gaskin, J.~A., Weisskopf, M.~C., Vikhlinin, A., {et~al.} 2015, in ,
-  96010J--96010J--14.
-\newblock \url{http://dx.doi.org/10.1117/12.2190837}
+\bibitem[{{Gaskin} {et~al.}(2015){Gaskin}, {Weisskopf}, {Vikhlinin},
+  {Tananbaum}, {Bandler}, {Bautz}, {Burrows}, {Falcone}, {Harrison},
+  {Heilmann}, {Heinz}, {Hopkins}, {Kilbourne}, {Kouveliotou}, {Kraft},
+  {Kravtsov}, {McEntaffer}, {Natarajan}, {O'Dell}, {Petre}, {Prieskorn},
+  {Ptak}, {Ramsey}, {Reid}, {Schnell}, {Schwartz}, \&
+  {Townsley}}]{2015SPIE.9601E..0JG}
+{Gaskin}, J.~A., {Weisskopf}, M.~C., {Vikhlinin}, A., {et~al.} 2015, in
+  \procspie, Vol. 9601, UV, X-Ray, and Gamma-Ray Space Instrumentation for
+  Astronomy XIX, 96010J
 
 \bibitem[{{G{\"u}nther} {et~al.}(2016){G{\"u}nther}, {Bautz}, {Heilmann},
   {Huenemoerder}, {Marshall}, {Nowak}, \& {Schulz}}]{2016SPIE.9905E..56G}
@@ -78,22 +82,17 @@ Gaskin, J.~A., Weisskopf, M.~C., Vikhlinin, A., {et~al.} 2015, in ,
   \procspie, Vol. 9905, Society of Photo-Optical Instrumentation Engineers
   (SPIE) Conference Series, 990556
 
-\bibitem[{G\"unther {et~al.}(2017)G\"unther, Frost, Sipocz, Theriault-Shay, \&
-  Robitaille}]{marxs1.0}
-G\"unther, H.~M., Frost, J., Sipocz, B., Theriault-Shay, A., \& Robitaille, T.
-  2017, Chandra-MARX/marxs: V1.0, , , doi:10.5281/zenodo.546376.
-\newblock \url{https://doi.org/10.5281/zenodo.546376}
+\bibitem[{Günther {et~al.}(2017)Günther, Frost, Sipocz, Theriault-Shay, \&
+  Robitaille}]{marxs1.1}
+Günther, H.~M., Frost, J., Sipocz, B., Theriault-Shay, A., \& Robitaille, T.
+  2017, Chandra-MARX/marxs: v1.1, , , doi:10.5281/zenodo.829911.
+\newblock \url{https://doi.org/10.5281/zenodo.829911}
 
-\bibitem[{Heilmann {et~al.}(2015)Heilmann, Bruccoleri, \&
-  Schattenburg}]{doi:10.1117/12.2188525}
-Heilmann, R.~K., Bruccoleri, A.~R., \& Schattenburg, M.~L. 2015, in ,
-  960314--960314--12.
-\newblock \url{http://dx.doi.org/10.1117/12.2188525}
-
-\bibitem[{Jones {et~al.}(2001--)Jones, Oliphant, Peterson, {et~al.}}]{numpy}
-Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
-  scientific tools for {Python}, , , [Online; accessed 2016-06-04].
-\newblock \url{http://www.scipy.org/}
+\bibitem[{{Heilmann} {et~al.}(2015){Heilmann}, {Bruccoleri}, \&
+  {Schattenburg}}]{2015SPIE.9603E..14H}
+{Heilmann}, R.~K., {Bruccoleri}, A.~R., \& {Schattenburg}, M.~L. 2015, in
+  \procspie, Vol. 9603, Society of Photo-Optical Instrumentation Engineers
+  (SPIE) Conference Series, 960314
 
 \bibitem[{{Kuhn} {et~al.}(2013){Kuhn}, {Getman}, {Broos}, {Townsley}, \&
   {Feigelson}}]{2013ApJS..209...27K}
@@ -111,11 +110,12 @@ Jones, E., Oliphant, T., Peterson, P., {et~al.} 2001--, {SciPy}: Open source
   {Kennea}, \& {Beardmore}}]{2014ApJ...788...53M}
 {Miller}, J.~M., {Raymond}, J., {Kallman}, T.~R., {et~al.} 2014, \apj, 788, 53
 
-\bibitem[{O'Dell {et~al.}(1993)O'Dell, Elsner, Kolodziejczak, Weisskopf,
-  Hughes, \& Van~Speybroeck}]{doi:10.1117/12.140551}
-O'Dell, S.~L., Elsner, R.~F., Kolodziejczak, J.~J., {et~al.} 1993, in ,
-  171--182.
-\newblock \url{http://dx.doi.org/10.1117/12.140551}
+\bibitem[{{O'dell} {et~al.}(1993){O'dell}, {Elsner}, {Kolodziejeczak},
+  {Weisskopf}, {Hughes}, \& {van Speybroeck}}]{1993SPIE.1742..171O}
+{O'dell}, S.~L., {Elsner}, R.~F., {Kolodziejeczak}, J.~J., {et~al.} 1993, in
+  \procspie, Vol. 1742, Multilayer and Grazing Incidence X-Ray/EUV Optics for
+  Astronomy and Projection Lithography, ed. R.~B. {Hoover} \& A.~B.~C.
+  {Walker}, Jr., 171--182
 
 \bibitem[{Ramachandran \& Varoquaux(2011)}]{mayavi}
 Ramachandran, P., \& Varoquaux, G. 2011, Computing in Science \& Engineering,
@@ -130,21 +130,28 @@ Ramachandran, P., \& Varoquaux, G. 2011, Computing in Science \& Engineering,
   Bookbinder, Burrows, Brenneman, Brickhouse, Cheimets, Carrier, Freeman,
   Kaastra, McEntaffer, Miller, Ptak, Petre, \&
   Vacanti}]{doi:10.1117/12.2062671}
-Smith, R.~K., Ackermann, M., Allured, R., {et~al.} 2014, in ,
+Smith, R.~K., Ackermann, M., Allured, R., {et~al.} 2014, in \procspie, Vol.
+  9144, Space Telescopes and Instrumentation 2014: Ultraviolet to Gamma Ray,
   91444Y--91444Y--12.
 \newblock \url{http://dx.doi.org/10.1117/12.2062671}
+
+\bibitem[{van~der Walt {et~al.}(2011)van~der Walt, Colbert, \&
+  Varoquaux}]{numpy}
+van~der Walt, S., Colbert, S.~C., \& Varoquaux, G. 2011, Computing in Science
+  \& Engineering, 13, 22.
+\newblock \url{http://aip.scitation.org/doi/abs/10.1109/MCSE.2011.37}
 
 \bibitem[{{Vogt} {et~al.}(2016){Vogt}, {Owen}, {Verdes-Montenegro}, \&
   {Borthakur}}]{2016ApJ...818..115V}
 {Vogt}, F.~P.~A., {Owen}, C.~I., {Verdes-Montenegro}, L., \& {Borthakur}, S.
   2016, \apj, 818, 115
 
-\bibitem[{Willingale {et~al.}(2014)Willingale, Pareschi, Christensen, den
-  Herder, Ferreira, Jakobsen, Ackermann, Collon, \&
-  Bavdaz}]{doi:10.1117/12.2055183}
-Willingale, R., Pareschi, G., Christensen, F., {et~al.} 2014, in ,
-  91442E--91442E--9.
-\newblock \url{http://dx.doi.org/10.1117/12.2055183}
+\bibitem[{{Willingale} {et~al.}(2014){Willingale}, {Pareschi}, {Christensen},
+  {den Herder}, {Ferreira}, {Jakobsen}, {Ackermann}, {Collon}, \&
+  {Bavdaz}}]{2014SPIE.9144E..2EW}
+{Willingale}, R., {Pareschi}, G., {Christensen}, F., {et~al.} 2014, in
+  \procspie, Vol. 9144, Space Telescopes and Instrumentation 2014: Ultraviolet
+  to Gamma Ray, 91442E
 
 \bibitem[{{Wise} {et~al.}(2013){Wise}, {Davis}, {Huenemoerder}, {Houck}, \&
   {Dewey}}]{2013ascl.soft02001W}
